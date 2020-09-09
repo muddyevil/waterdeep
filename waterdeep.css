@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Dancing+Script&family=Lateef&family=Mali&family=Fondamento&family=Satisfy&family=Yellowtail&display=swap');
+body {
+    background-color: #341501;
+    width: 95%;
+    margin: auto;
+}
+
+.top {
+    background-color: #FDE0B4;
+    border: #362C2A solid 3px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    width: 50%;
+    margin: 5px auto;
+    box-shadow: 0 4px 8px 0 #150206, 0 6px 20px 0 #150206;
+}
+
+h1 {
+    font-size: 38px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+.column {
+        display: inline-flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        flex-basis: 15%;
+        width: 15%;
+}
+
+.faction {
+    background-color: #FDE0B4;
+    width: 90%;
+    height: auto;
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 #150206, 0 6px 20px 0 #150206;
+    margin: 10px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+.bregan {
+    background-color: #7E91AE;
+    color: #150206;
+    border: #8E2A65 solid 5px;
+    font-family: "Satisfy", cursive;
+    padding: 5px;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.gray {
+    background-color: #C3C3C5;
+    color: #050505;
+    border: #686767 solid 5px;
+    font-family: "Yellowtail", cursive;
+    padding: 5px;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.harpers {
+    background-color: #CCDDE2;
+    color: #594236;
+    border: #48ACF0 solid 5px;
+    font-family: "Mali", cursive;
+    padding: 5px;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.order {
+    background-color: #D2CA8E;
+    color: #333237;
+    border: #868A90 solid 5px;
+    font-family: "Comic Neue", cursive;
+    padding: 5px;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.zhent {
+    background-color: #FFE9AC;
+    color: #000000;
+    border: #993205 solid 5px;
+    font-family: "Fondamento", cursive;
+    padding: 5px;
+    font-size: 20px;
+    margin: 10px;
+}
